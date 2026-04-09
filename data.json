@@ -1,0 +1,88 @@
+{
+  "servers": {
+    "NORMAL-JWT-BOT": {
+      "name": "NORMAL-JWT-BOT",
+      "owner": "agajayofficialbro",
+      "runtime": "python",
+      "status": "running",
+      "main_file": "NORMAL-JWT-BOT/jwt.py",
+      "port": 8080,
+      "packages": [
+        {
+          "name": "aiohttp",
+          "version": "",
+          "installed_at": "2026-04-08T12:55:25.315945"
+        },
+        {
+          "name": "python-dotenv",
+          "version": "",
+          "installed_at": "2026-04-08T12:55:32.659536"
+        },
+        {
+          "name": "python-telegram-bot",
+          "version": "",
+          "installed_at": "2026-04-08T12:57:28.647907"
+        }
+      ],
+      "pid": 6,
+      "created": "2026-04-08T12:54:45.769553"
+    },
+    "Hosting-Bot": {
+      "name": "Hosting-Bot",
+      "owner": "agajayofficialbro",
+      "runtime": "python",
+      "status": "running",
+      "main_file": "main.py",
+      "port": 8080,
+      "packages": [
+        {
+          "name": "pyTelegramBotAPI",
+          "version": "",
+          "installed_at": "2026-04-08T12:58:21.683971"
+        }
+      ],
+      "pid": 9,
+      "created": "2026-04-08T12:57:56.705934"
+    },
+    "Rose-Bot": {
+      "name": "Rose-Bot",
+      "owner": "agajayofficialbro",
+      "runtime": "python",
+      "status": "stopped",
+      "main_file": "rose.py",
+      "port": 8080,
+      "packages": [],
+      "pid": null,
+      "created": "2026-04-08T12:58:36.985516"
+    },
+    "Sulav-hosting": {
+      "name": "Sulav-hosting",
+      "owner": "hahahahaha",
+      "runtime": "python",
+      "status": "stopped",
+      "main_file": "bot.py",
+      "port": 8080,
+      "packages": [],
+      "pid": null,
+      "created": "2026-04-08T14:08:39.125269"
+    }
+  },
+  "users": {
+    "hahahahaha": {
+      "joined": "2026-04-08T12:55:31.615728",
+      "password_hash": "3d9b04709511f917a5b2bacaa8e37c7ecb3b21433d9cd8abe1a7b52031e1479a"
+    },
+    "agajayofficial": {
+      "joined": "2026-04-08T13:04:27.103250",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    },
+    "sulav": {
+      "joined": "2026-04-08T15:46:22.362057",
+      "password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+    }
+  },
+  "settings": {
+    "maintenance": false,
+    "maintenance_msg": "System under maintenance."
+  }
+}
